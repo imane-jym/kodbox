@@ -6779,8 +6779,8 @@
         }, "qrcode": function a(e, t) {
             if (e && 4096 < e.length) return Tips.tips(LNG["common.lengthLimit"] + ",max=4096", "warning", 3e3);
             "./" == e.substr(0, 2) && (e = $.parseUrl().urlPath + e.substr(2));
-            var i = API_URL("user/view/qrcode", "url=" + quoteHtml(urlEncode(e))),
-                e = "<a href='" + htmlEncode(e) + "' target='_blank' class='can-select can-right-menu'><img src='" + i + "'/></a>";
+            // var i = API_URL("user/view/qrcode", "url=" + quoteHtml(urlEncode(e))),
+            //     e = "<a href='" + htmlEncode(e) + "' target='_blank' class='can-select can-right-menu'><img src='" + i + "'/></a>";
             return $.dialog({
                 "follow": t,
                 "fixed": !0,
