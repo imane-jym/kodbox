@@ -23144,7 +23144,7 @@
         var t = "", i = (e = e || {}).options, n = e._, a = e.G, o = e.homePage, s = e.LNG, r = e.$, c = l.$escape,
             e = e.window, i = (t += '<div class="footer-content"> ', n.get(a, "system.options", {})),
             o = s["common.copyright.homepage"].replace("%s", r.parseUrl().url);
-        return t = (t = (t = (t = (t = (t = (t += ' <span class="copyright-content"> ') + s["common.copyright.powerBy"] + ' <a href="https://github.com/kalcaddle/kodbox" target="_blank">V') + c(e.G.kod.version) + "</a>&nbsp;&nbsp;|&nbsp; ") + o + " ") + (i.globalIcp || "") + ' <i class="btn ri-information-line p-5 font-icon copyright-open"></i></span><style type="text/css" id="setting-system-global-css"> ') + (i.globalCss || "") + " </style> ") + (i.globalHtml || "") + " </div>"
+        return t = (t = (t = (t = (t = (t = (t += ' <span class="copyright-content"> ') + s["common.copyright.powerBy"] + ' <a href="https://github.com/kalcaddle/kodbox" target="_blank">V') + c(e.G.kod.version) + "</a>&nbsp;&nbsp;|&nbsp; ") + o + " ") + (i.globalIcp || "") + ' <!-- <i class="btn ri-information-line p-5 font-icon copyright-open"></i> --> </span><style type="text/css" id="setting-system-global-css"> ') + (i.globalCss || "") + " </style> ") + (i.globalHtml || "") + " </div>"
     }
 }, function (e, t, i) {
     "use strict";

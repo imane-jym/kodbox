@@ -221,11 +221,13 @@ $config['defaultPlugins'] = array(
 //初始化系统配置
 $config['settingSystemDefault'] = array(
 	'systemPassword'	=> rand_string(20),
-	'systemName'		=> "kodbox",
-	'systemDesc'		=> "——可道云.资源管理器",
+	'systemName'		=> "haisum",
+	'systemDesc'		=> "——海诚云.资源管理器",
 	'systemNameType' 	=> 'text',// image/text
-	'systemLogo' 		=> './static/images/common/logo.png',
-	'systemLogoMenu' 	=> './static/images/common/logo-kod.png',
+	// 'systemLogo' 		=> './static/images/common/logo.png',
+	// 'systemLogoMenu' 	=> './static/images/common/logo-kod.png',
+	'systemLogo' 		=> './static/images/common/logo-haisum.png',
+	'systemLogoMenu' 	=> './static/images/common/logo-haisum.png',
 	'adminTheme' 		=> 'black',// black/white 
 	
 	'pathHidden'		=> "Thumb.db,.DS_Store,.gitignore,.git",//目录列表隐藏的项

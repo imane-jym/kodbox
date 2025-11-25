@@ -36,7 +36,7 @@ ClassBase.define({
         var html = '<div class="dialog-copyright-content">\
                 <div class="title">\
                     <div class="logo logo-image hidden">'+LNG.logo('copyright')+'</div>\
-                    <div class="logo-text client-down-text">'+LNG['client.down.client']+'</div>\
+                    // <div class="logo-text client-down-text">'+LNG['client.down.client']+'</div>\
                     <div class="info hidden">'+(LNG['common.copyright.nameDesc'] || '')+'</div>\
                 </div>\
                 <div class="content size16">\
