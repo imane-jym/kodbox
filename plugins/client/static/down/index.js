@@ -12,9 +12,9 @@ ClassBase.define({
             _this.$('.menuBar .menu-dropdown-user li.copyright-show').after(html);
         }
         if (type == 'login' && !_this.$('.login-form form .client-download').length) {
-            var html = '<span class="client-download">\
+            var html = '<!-- <span class="client-download">\
                     <a class="url-link" href="javascript:void(0);">'+LNG['client.down.client']+'</a>\
-                </span>';
+                </span> -->';
             _this.$('.login-form form').append(html);
         }
         var self = this;
@@ -36,7 +36,7 @@ ClassBase.define({
         var html = '<div class="dialog-copyright-content">\
                 <div class="title">\
                     <div class="logo logo-image hidden">'+LNG.logo('copyright')+'</div>\
-                    // <div class="logo-text client-down-text">'+LNG['client.down.client']+'</div>\
+                    <div class="logo-text client-down-text">'+LNG['client.down.client']+'</div>\
                     <div class="info hidden">'+(LNG['common.copyright.nameDesc'] || '')+'</div>\
                 </div>\
                 <div class="content size16">\
